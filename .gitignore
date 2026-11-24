@@ -1,0 +1,20 @@
+# Built by Setup.cmd - the repository carries no binaries
+build/
+*.exe
+*.exe.new
+*.dll
+*.pdb
+
+# Local runtime data: config.json holds the TV pairing tokens
+config.json
+last-wake.txt
+*.log
+
+# Editors / OS
+.vs/
+.vscode/
+*.user
+*.suo
+Thumbs.db
+desktop.ini
+.DS_Store
