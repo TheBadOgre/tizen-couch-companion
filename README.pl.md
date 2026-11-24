@@ -1,5 +1,7 @@
 # Couch Companion
 
+*Vibecoded with love* :heart:
+
 **Telewizor Samsung (Tizen) podąża za komputerem z Windows** - dla komputera używanego jako konsola
 w salonie (Steam Big Picture, granie z kanapy). Karty graficzne nie mają HDMI-CEC; Couch Companion
 robi to przez sieć domową. Bez chmury, bez konta, bez dodatkowego sprzętu.
@@ -25,7 +27,20 @@ włączył się po wyłączeniu pilotem.
 3. **Znajdź** telewizor, wybierz wejście komputera, **Instaluj** i zaakceptuj komunikaty na telewizorze.
 
 Ta sama aplikacja aktualizuje i odinstalowuje. Po polsku lub angielsku, według języka Windows.
-Wymaga Windows 10/11 i telewizora Samsung z Tizen (2016+).
+
+## Obsługiwane telewizory
+
+Windows 10/11 i telewizor Samsung z Tizen. Możliwości zależą od tego, które interfejsy sieciowe ma dany model:
+
+| Rocznik TV | Tizen | Kanał pilota (wss :8002) | IP Control (https :1516) | Efekt |
+|---|---|---|---|---|
+| 2023+ | 7.0+ | tak | tak | **wszystko** - testowane na QE55Q80C (2023, Tizen 7.0) |
+| 2020-2022 | 5.5-6.5 | tak | tak | wszystko (2020 / Tizen 5.5 testował oryginalny projekt) |
+| 2018-2019 | 4.0-5.0 | tak | nie (port 1515, nieużywany) | tylko włącz/wyłącz: bez przełączania wejścia, przy uśpieniu TV gaśnie niezależnie od tego, co pokazuje |
+| 2016-2017 | 2.4-3.0 | nie (tylko 8001) | nie | nieobsługiwane |
+
+IP Control wymaga włączonego *IP Remote* w telewizorze. Niektóre modele nie mają jego części (np.
+przełączania wejścia w The Frame 2024); telewizor nadal podąża za komputerem, tylko wejście się nie zmienia.
 
 ## Jak to działa
 
@@ -37,6 +52,6 @@ Logi: `C:\ProgramData\CouchCompanion` i `%LOCALAPPDATA%\CouchCompanion`.
 
 ## Autorzy
 
-**Couch Companion** - **TheBadOgre**, na bazie
-[SamsungTV-Companion](https://github.com/leovicyto/SamsungTV-Companion) autorstwa **leovicyto**.
+**Couch Companion** - **TheBadOgre**, vibecoded with love (z pomocą AI).
+Na bazie [SamsungTV-Companion](https://github.com/leovicyto/SamsungTV-Companion) autorstwa **leovicyto**.
 Licencja MIT.

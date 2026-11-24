@@ -1,5 +1,7 @@
 # Couch Companion
 
+*Vibecoded with love* :heart:
+
 Your **Samsung Tizen TV follows your Windows PC** - made for a PC used as a living-room console
 (Steam Big Picture, couch gaming). PC graphics cards have no HDMI-CEC; Couch Companion does it over
 your home network. No cloud, no account, no extra hardware.
@@ -25,7 +27,20 @@ after the remote.
 3. **Find** the TV, pick the PC's input, **Install**, and accept the prompts on the TV.
 
 The same app updates and uninstalls. Polish or English, by the Windows language.
-Requires Windows 10/11 and a Samsung Tizen TV (2016+).
+
+## Supported TVs
+
+Windows 10/11 and a Samsung Tizen TV. What works depends on which of the TV's network APIs the model has:
+
+| TV year | Tizen | Remote channel (wss :8002) | IP Control (https :1516) | Result |
+|---|---|---|---|---|
+| 2023+ | 7.0+ | yes | yes | **everything** - tested on QE55Q80C (2023, Tizen 7.0) |
+| 2020-2022 | 5.5-6.5 | yes | yes | everything (2020 / Tizen 5.5 tested by the original project) |
+| 2018-2019 | 4.0-5.0 | yes | no (port 1515, not used) | on/off only: no input switching, the TV is switched off on sleep whatever it shows |
+| 2016-2017 | 2.4-3.0 | no (8001 only) | no | not supported |
+
+IP Control needs *IP Remote* enabled on the TV. Some models leave parts of it out (e.g. input
+switching on The Frame 2024); then the TV still follows the PC, only the input stays as it is.
 
 ## How it works
 
@@ -37,6 +52,6 @@ Logs: `C:\ProgramData\CouchCompanion` and `%LOCALAPPDATA%\CouchCompanion`.
 
 ## Credits
 
-**Couch Companion** by **TheBadOgre**, based on
-[SamsungTV-Companion](https://github.com/leovicyto/SamsungTV-Companion) by **leovicyto**.
+**Couch Companion** by **TheBadOgre** - vibecoded with love, with an AI pair programmer.
+Based on [SamsungTV-Companion](https://github.com/leovicyto/SamsungTV-Companion) by **leovicyto**.
 MIT License.
