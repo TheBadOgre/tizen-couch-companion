@@ -44,7 +44,10 @@ static class S
                 "  - Settings > General > Network > Expert Settings > Power On with Mobile = On\n" +
                 "  - Settings > General > Network > Expert Settings > IP Remote = On\n" +
                 "  - Settings > General > External Device Manager > Device Connection Manager >\n" +
-                "    Access Notification = First Time Only\n\n" +
+                "    Access Notification = First Time Only\n" +
+                "  - Settings > General & Privacy (or Advanced Features) > Start Screen Option >\n" +
+                "    Start with Smart Hub Home = Off, so the TV does not always start on the Home screen\n" +
+                "    (older TVs: General > Smart Features > Autorun Smart Hub = Off)\n\n" +
                 "The TV must be ON and on the same network as this PC (cable is more reliable than Wi-Fi).\n" +
                 "During installation accept the prompts on the TV (\"Allow\").\n" +
                 "Recommended: reserve the TV's IP address in your router (DHCP reservation).",
@@ -52,7 +55,10 @@ static class S
                 "  - Ustawienia > Ogólne > Sieć > Ustawienia eksperckie > Włączanie z urządzeniem mobilnym = Wł.\n" +
                 "  - Ustawienia > Ogólne > Sieć > Ustawienia eksperckie > IP Remote = Wł.\n" +
                 "  - Ustawienia > Ogólne > Menedżer urządzeń zewnętrznych > Menedżer połączeń urządzeń >\n" +
-                "    Powiadomienie o dostępie = Tylko za pierwszym razem\n\n" +
+                "    Powiadomienie o dostępie = Tylko za pierwszym razem\n" +
+                "  - Ustawienia > Ogólne i prywatność (lub Funkcje zaawansowane) > Opcja ekranu startowego >\n" +
+                "    Start with Smart Hub Home = Wył., aby TV nie startował zawsze na ekranie głównym\n" +
+                "    (starsze TV: Ogólne > Funkcje Smart > Uruchom automatycznie Smart Hub = Wył.)\n\n" +
                 "Telewizor musi być WŁĄCZONY i w tej samej sieci co komputer (kabel jest pewniejszy niż Wi-Fi).\n" +
                 "Podczas instalacji zaakceptuj komunikaty na telewizorze („Zezwól”).\n" +
                 "Zalecane: zarezerwuj adres IP telewizora w routerze (rezerwacja DHCP).");

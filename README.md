@@ -22,6 +22,9 @@ after the remote.
 
 1. On the TV: *Settings > General > Network > Expert Settings* - **Power On with Mobile** and
    **IP Remote** on. Same network as the PC; a cable is best.
+   Also turn **Start with Smart Hub Home** off (*Settings > General & Privacy* or *Advanced Features >
+   Start Screen Option*; older TVs: *General > Smart Features > Autorun Smart Hub*), so the TV does
+   not always start on the Home screen.
 2. Double-click **`Setup.cmd`** - it builds the setup app with the compiler that ships with Windows
    and starts it (admin rights needed).
 3. **Find** the TV, pick the PC's input, **Install**, and accept the prompts on the TV.

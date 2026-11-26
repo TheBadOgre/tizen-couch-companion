@@ -67,12 +67,16 @@ Write-Host (T @'
    - Settings > General > Network > Expert Settings > IP Remote = On (if present)
    - Settings > General > External Device Manager > Device Connection Manager
        > Access Notification = First Time Only
+   - Settings > General & Privacy (or Advanced Features) > Start Screen Option
+       > Start with Smart Hub Home = Off (older TVs: General > Smart Features > Autorun Smart Hub = Off)
    - The TV must be ON and on the same network as this PC (cable is more reliable than Wi-Fi).
 '@ @'
    - Configuracoes > Geral > Rede > Configuracoes especialistas > Ligar com dispositivo movel = Ativado
    - Configuracoes > Geral > Rede > Configuracoes especialistas > IP Remote = Ativado (se existir)
    - Configuracoes > Geral > Gerenciador de dispositivos externos > Gerenciador de conexao de dispositivos
        > Notificacao de acesso = Somente na primeira vez
+   - Configuracoes > Geral e privacidade (ou Recursos avancados) > Start Screen Option
+       > Start with Smart Hub Home = Desativado (TVs antigas: Geral > Recursos Smart > Autorun Smart Hub = Desativado)
    - A TV precisa estar LIGADA e na mesma rede do PC (cabo e mais confiavel que Wi-Fi).
 '@)
 if (-not $Unattended) { [void](Read-Host (T '   Press Enter when ready' '   Aperte Enter quando estiver pronto')) }

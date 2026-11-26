@@ -22,6 +22,9 @@ włączył się po wyłączeniu pilotem.
 
 1. Na telewizorze: *Ustawienia > Ogólne > Sieć > Ustawienia eksperckie* - włącz **Włączanie z
    urządzeniem mobilnym** i **IP Remote**. Ta sama sieć co komputer; najlepiej kabel.
+   Wyłącz też **Start with Smart Hub Home** (*Ustawienia > Ogólne i prywatność* lub *Funkcje
+   zaawansowane > Opcja ekranu startowego*; starsze TV: *Ogólne > Funkcje Smart > Uruchom
+   automatycznie Smart Hub*), aby telewizor nie startował zawsze na ekranie głównym.
 2. Kliknij dwukrotnie **`Setup.cmd`** - zbuduje aplikację instalacyjną kompilatorem wbudowanym
    w Windows i ją uruchomi (wymaga uprawnień administratora).
 3. **Znajdź** telewizor, wybierz wejście komputera, **Instaluj** i zaakceptuj komunikaty na telewizorze.

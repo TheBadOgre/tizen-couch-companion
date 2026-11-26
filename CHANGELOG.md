@@ -1,5 +1,10 @@
 # Changelog
 
+## Unreleased
+
+- Install instructions (setup app, `Install.ps1`, READMEs): turn off the TV's **Start with Smart Hub
+  Home** / **Autorun Smart Hub**, so it does not always start on the Home screen.
+
 ## 2.0.0 - 2026-11-23 - Couch Companion (TheBadOgre)
 
 Renamed to **Couch Companion**; based on SamsungTV-Companion 1.1.0 by leovicyto.
